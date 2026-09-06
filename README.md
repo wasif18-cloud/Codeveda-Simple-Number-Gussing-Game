@@ -1,8 +1,7 @@
 # 🎯 Simple Number Guessing Game
 
-A simple and interactive **Number Guessing Game built using Java**. The
-computer randomly selects a number between **1 and 100**, and the player
-tries to guess it within a limited number of attempts.
+A simple and interactive **Number Guessing Game built using Java**. 
+The computer randomly selects a number between **1 and 100**, and the player tries to guess it within a limited number of attempts.
 
 The game provides hints such as **Too High** and **Too Low** after each
 incorrect guess and also includes a simple scoring system and a replay
@@ -12,17 +11,12 @@ option.
 
 ## 📌 Project Overview
 
-The **Simple Number Guessing Game** is a beginner-friendly Java console
-application created to practice fundamental Java programming concepts.
-
-The program generates a random number between 1 and 100. The player gets
-a maximum of **7 valid attempts** to guess the correct number. After
-every guess, the program tells the player whether the guess is too high
-or too low.
-
-If the player guesses the number correctly, the game displays the number
-of attempts used and the player's score. If all attempts are used, the
-correct number is displayed.
+The **Simple Number Guessing Game** is a beginner-friendly Java console application created to practice fundamental Java programming concepts.
+The program generates a random number between 1 and 100.
+The player gets a maximum of **7 valid attempts** to guess the correct number. 
+After every guess, the program tells the player whether the guess is too high or too low.
+If the player guesses the number correctly, the game displays the number of attempts used and the player's score. 
+If all attempts are used, the correct number is displayed.
 
 ------------------------------------------------------------------------
 
@@ -167,44 +161,6 @@ javac SimpleNumberGuessingGame.java
 ``` bash
 java SimpleNumberGuessingGame
 ```
-
-------------------------------------------------------------------------
-
-## 🔧 Input Validation
-
-The program checks the user's input before processing the guess.
-
-For example:
-
-``` text
-Enter your guess: hello
-Please enter a number only.
-```
-
-It also checks whether the number is within the allowed range:
-
-``` text
-Enter your guess: 150
-Enter a number between 1 and 100.
-```
-
-Invalid input does not count as an attempt.
-
-------------------------------------------------------------------------
-
-## 🚀 Future Improvements
-
-The project can be improved in the future by adding:
-
--   🎚️ Easy, Medium, and Hard difficulty levels
--   🏆 High-score system
--   👤 Player name
--   📈 Score history
--   🖼️ Java Swing GUI
--   ⏱️ Time-based challenge
--   🔊 Sound effects
--   📊 Statistics such as total games and win rate
-
 ------------------------------------------------------------------------
 
 ## 🎓 Learning Objective
@@ -217,4 +173,3 @@ The project focuses on:
 
 > **Random Number Generation + User Input + Loops + Conditions + Input
 > Validation**
-> 
