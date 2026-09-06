@@ -69,57 +69,6 @@ correct number is displayed.
 
 ------------------------------------------------------------------------
 
-## 🖥️ Sample Output
-
-``` text
-================================
-       NUMBER GUESSING GAME
-================================
-Guess a number between 1 and 100
-You have 7 attempts.
-
-Enter your guess: 50
-Too High! Try again.
-Attempts left: 6
-
-Enter your guess: 25
-Too Low! Try again.
-Attempts left: 5
-
-Enter your guess: 40
-Too Low! Try again.
-Attempts left: 4
-
-Enter your guess: 45
-Correct! You won!
-Attempts used: 4
-Your score: 40
-
-Do you want to play again? (yes/no): no
-
-Thanks for playing!
-```
-
-------------------------------------------------------------------------
-
-## 📊 Scoring System
-
-The score depends on how quickly the player guesses the correct number.
-
-    Attempts Used   Score
-  --------------- -------
-                1      70
-                2      60
-                3      50
-                4      40
-                5      30
-                6      20
-                7      10
-
-**Note:** The current scoring formula rewards fewer attempts.
-
-------------------------------------------------------------------------
-
 ## 🧠 Program Logic
 
 The basic logic of the game is:
@@ -221,17 +170,6 @@ java SimpleNumberGuessingGame
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
-
-``` text
-Simple-Number-Guessing-Game/
-│
-├── SimpleNumberGuessingGame.java
-└── README.md
-```
-
-------------------------------------------------------------------------
-
 ## 🔧 Input Validation
 
 The program checks the user's input before processing the guess.
@@ -279,25 +217,4 @@ The project focuses on:
 
 > **Random Number Generation + User Input + Loops + Conditions + Input
 > Validation**
-
-------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-**Wasif Masood**
-
-This project was created as part of my **Java programming practice and
-learning projects**.
-
-------------------------------------------------------------------------
-
-## ⭐ Support
-
-If you find this project useful or interesting, consider giving the
-repository a **⭐ Star** on GitHub.
-
-------------------------------------------------------------------------
-
-## 📄 License
-
-This project is created for **educational and learning purposes**.
+> 
