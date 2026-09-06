@@ -1,4 +1,4 @@
-# 🎯 Simple Number Guessing Game
+# 🎯 Codeveda-Simple Number Guessing Game
 
 A simple and interactive **Number Guessing Game built using Java**. 
 The computer randomly selects a number between **1 and 100**, and the player tries to guess it within a limited number of attempts.
